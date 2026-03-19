@@ -1,0 +1,9 @@
+name = "nab-install"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+account_id = "1d9f1ba803a2b9c6118173364bde3155"
+workers_dev = true
+
+routes = [
+  { pattern = "nab.dholtz.com/*", zone_name = "dholtz.com" }
+]
