@@ -1,0 +1,13 @@
+[package]
+name = "nab"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+ureq = { version = "2", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+flate2 = "1"
+tar = "0.4"
+zip = "2"
